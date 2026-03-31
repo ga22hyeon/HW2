@@ -10,11 +10,8 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 # 3. Work Directory (작업 디렉토리 설정)
 WORKDIR /app
 
-# 4. Install System Dependencies (OpenCV 필수 라이브러리 설치 및 캐시 제거)
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    libgl1-mesa-glx \
-    libglib2.0-0 \
-    && rm -rf /var/lib/apt/lists/*
+# 4. System Dependencies
+# (opencv-python-headless 사용으로 별도 OS 라이브러리 설치 생략)
 
 # 5. Install Python Dependencies 
 # (코드 수정 시 매번 패키지를 다시 다운로드하지 않도록 requirements.txt 먼저 복사 및 설치)

@@ -7,7 +7,7 @@ python-multipart>=0.0.9
 deepface==0.0.93
 tensorflow>=2.20.0        # Python 3.13 requires TF 2.20+
 tf-keras>=2.20.0          # DeepFace compatibility layer for TF 2.16+
-opencv-python>=4.10.0.84
+opencv-python-headless>=4.10.0.84
 Pillow>=10.4.0            # 10.3.0 has build issues on Python 3.13
 numpy>=1.26.4,<3.0
 
