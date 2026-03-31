@@ -1,0 +1,24 @@
+# FastAPI Core (Python 3.13 compatible)
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.1
+python-multipart>=0.0.9
+
+# ML / Face Recognition
+deepface==0.0.93
+tensorflow>=2.20.0        # Python 3.13 requires TF 2.20+
+tf-keras>=2.20.0          # DeepFace compatibility layer for TF 2.16+
+opencv-python>=4.10.0.84
+Pillow>=10.4.0            # 10.3.0 has build issues on Python 3.13
+numpy>=1.26.4,<3.0
+
+# Data Validation
+pydantic>=2.7.1
+pydantic-settings>=2.3.0
+
+# Utilities
+python-dotenv>=1.0.1
+aiofiles>=23.2.1
+loguru>=0.7.2
+
+# Monitoring (Optional - for MLOps)
+prometheus-fastapi-instrumentator>=7.0.0

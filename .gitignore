@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env.local
+.env.*.local
+
+# Secrets (keep .env template, ignore actual secrets)
+.env.production
+.env.staging
+
+# Logs
+logs/
+*.log
+
+# Temp files
+temp/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# DeepFace model weights cache
+.deepface/
+
+# Jupyter
+.ipynb_checkpoints/

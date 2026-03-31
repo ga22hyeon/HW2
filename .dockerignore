@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.env.local
+.env.development
+.git/
+.github/
+.idea/
+.vscode/
+README.md
+
+# 로컬 테스트 후 생긴 로그나 모델 가중치 등의 불필요 파일 제외
+*.log
+logs/
+.deepface/
